@@ -1,0 +1,471 @@
+.wrap {
+}
+
+.desc {
+  margin: 200px 0px 0px 200px;
+  max-width: 570px;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .desc {
+    margin: 40px 0px 0px 40px;
+  }
+}
+
+.titleDesc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: #3a3c75;
+  margin-bottom: 10px;
+}
+.textDesc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+.textOpac {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.slaid {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.leftSlaid {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rightSlaid {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.scroll-container {
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* FUNCTIONAL */
+
+.functional {
+  background: #3a3c75;
+  color: white;
+}
+
+.func {
+  padding: 120px 200px;
+  max-width: 1200px;
+}
+.titleFunc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-align: left;
+  border-bottom: 1px solid #909090;
+  padding: 20px 0px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #909090;
+  padding: 20px 0px;
+}
+
+.titleBlock {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
+
+.textBlock {
+  width: 570px;
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1000px) {
+  .func {
+    padding-right: calc(10px + (200 - 10) * ((100vw - 700px) / (1000 - 700)));
+    padding-left: calc(10px + (200 - 10) * ((100vw - 700px) / (1000 - 700)));
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .textBlock {
+    max-width: 800px;
+    margin-top: 10px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .textBlock {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .textBlock {
+    max-width: 500px;
+  }
+  .titleFunc {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textBlock {
+    max-width: 300px;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* ADVANTAGE */
+
+.advantage {
+  margin: 160px 200px;
+}
+
+@media screen and (max-width: 1100px) {
+  .advantage {
+    margin-right: calc(10px + (200 - 10) * ((100vw - 700px) / (1100 - 700)));
+    margin-left: calc(10px + (200 - 10) * ((100vw - 700px) / (1100 - 700)));
+  }
+}
+.titleAdvan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: #3a3c75;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.blockAdvan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  grid-gap: 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .advantage {
+    margin-right: calc(10px + (200 - 10) * ((100vw - 700px) / (1100 - 700)));
+    margin-left: calc(10px + (200 - 10) * ((100vw - 700px) / (1100 - 700)));
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .blockAdvan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advantage {
+    padding: 0px 70px;
+  }
+
+  .numbAnaliz {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .advantage {
+    padding: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .advantage {
+    padding: 0px 140px;
+  }
+}
+
+.textAdvan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.blockAnaliz {
+}
+
+.textAnaliz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: #282828;
+}
+
+.numbAnaliz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 100%;
+  color: #3a3c75;
+  margin-top: 40px;
+}
+
+.commentAnaliz {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #909090;
+}
+
+/* ISSUES */
+.issues {
+}
+
+.titleIss {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: #3a3c75;
+  text-align: left;
+  margin: 200px 0px 40px 200px;
+}
+
+.containerIss {
+}
+.percentIss {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.perc {
+  background: #3a3c75;
+}
+
+.perc img {
+  padding: 70px 0px;
+}
+
+.fauls {
+  text-align: left;
+  align-self: center;
+  margin: 0px 200px 0px 60px;
+}
+
+.titleFaul {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  color: #3a3c75;
+  opacity: 0.3;
+}
+
+.textFaul {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #282828;
+}
+
+@media screen and (max-width: 1050px) {
+  .percentIss {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fauls {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .titleFaul {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .titleIss {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .fauls {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* PRICE */
+.price {
+  margin: 200px 200px;
+}
+
+.titlePrice {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: #3a3c75;
+  text-align: left;
+}
+
+.blocksPrice {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1550px) {
+  .blocksPrice {
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .blockPr1 {
+    margin-bottom: 20px;
+  }
+  .titlePrice {
+    text-align: center;
+  }
+}
+
+.blockPr1 {
+  max-width: 570px;
+  height: 700px;
+  background: #26284e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.blockPr2 {
+  max-width: 570px;
+  height: 700px;
+  background: #282828;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.imgPr {
+  width: 477px;
+  height: 373px;
+}
+
+.descPr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.commentPr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #909090;
+}
+
+.btnPr {
+  background: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 15px 100px;
+  color: #282828;
+  text-decoration: none;
+}
+
+.btnPr:hover {
+  background: teal;
+  color: white;
+  cursor: pointer;
+}
+
+/* TEAM */
+
+.team {
+  margin: 0px 200px 140px;
+}
+
+.titleTeam {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  text-align: center;
+  color: #3a3c75;
+  text-align: left;
+  border-bottom: 1px solid #cac8c8;
+  padding-bottom: 10px;
+}

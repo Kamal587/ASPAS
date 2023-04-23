@@ -1,0 +1,59 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #cac8c8;
+  padding: 40px 0px;
+}
+.dataUser {
+  text-align: left;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #282828;
+}
+
+.proff {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #909090;
+  margin: 10px 0px;
+}
+
+.job {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #282828;
+}
+
+.imgUs {
+  text-align: left;
+  padding-left: 40px;
+  max-width: 396px;
+}
+
+@media screen and (max-width: 1120px) {
+  .wrap {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .name,
+  .imgUs,
+  .proff,
+  .job {
+    text-align: center;
+  }
+  .imgUs {
+    align-self: center;
+  }
+}
